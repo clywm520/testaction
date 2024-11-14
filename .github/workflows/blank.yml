@@ -1,0 +1,12 @@
+name: Example workflow for GitHub Actions
+ 
+on: [push]
+ 
+jobs:
+  test-run:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run a shell script
+      run: |
+        echo "Hello, GitHub Actions!"
+        ls -la
